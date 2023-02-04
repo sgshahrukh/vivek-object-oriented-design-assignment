@@ -1,0 +1,29 @@
+Task:
+Implement a class hierarchy for a simple order processing system using SOLID principles. The system should handle the following entities. You can make your own assumptions and add more classes if needed while following the relations and principles.
+
+    Products
+    Orders
+    Customers
+    Shippers
+
+Instructions:
+
+    Follow the SOLID principles in your design:
+        Single Responsibility Principle (SRP)
+        Open/Closed Principle (OCP)
+        Liskov Substitution Principle (LSP)
+        Interface Segregation Principle (ISP)
+        Dependency Inversion Principle (DIP)
+
+    Create a base class for each of the entities (Product, Order, Customer, Shipper) and ensure that the classes follow the SRP and OCP principles.
+
+    Implement the LSP by ensuring that any derived classes can be used interchangeably with their base class.
+
+    Implement the ISP by creating separate interfaces for different functionalities of each class.
+
+    Implement the DIP by ensuring that high-level modules depend on abstractions, not on concrete implementations.
+
+    Write test cases to validate the implementation of SOLID principles.
+
+    Submit the code and test cases.
+
